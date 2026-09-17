@@ -38,7 +38,7 @@ jobs:
 
     environment:
       name: pypi
-      url: https://pypi.org/p/plog
+      url: https://pypi.org/p/synlog
 
     steps:
       - name: Retrieve release distributions
