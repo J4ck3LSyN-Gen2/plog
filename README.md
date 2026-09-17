@@ -1,8 +1,8 @@
-# plog
+# synlog
 
 _Version_:`1.1.0`  
 _Author_:`J4ck3LSyN`  
-_Source_: [plog](https://www.github.com/J4ck3LSyN-Gen2/plog)
+_Source_: [synlog](https://www.github.com/J4ck3LSyN-Gen2/synlog)
 
 ---
 
@@ -21,7 +21,7 @@ A lightweight, dependency-free logging utility that wraps the standard library `
 ## Installation
 
 ```bash
-pip install plog
+pip install synlog
 ```
 
 Or install from source:
@@ -35,8 +35,8 @@ pip install .
 ## Quick Start
 
 ```python
-from plog import plog
-log = plog("myapp")
+from synlog import synlog
+log = synlog("myapp")
 log.log("Application started")                 # INFO  -> [*]
 log.log("Something looks suspicious", lvl=2)   # WARNING -> [!]
 log.log("Failed to connect", lvl=3)            # ERROR -> [-]
@@ -73,7 +73,7 @@ log.log("debug info", lvl="d")
 log.log("warning", lvl=2)
 ```
 
-referece: `plog.LMAP` & `plog.PMAP`
+referece: `synlog.LMAP` & `synlog.PMAP`
 
 ### Verbosity Control
 
@@ -124,7 +124,7 @@ log.dumps(data)          # pretty-prints as indented JSON lines
 
 ## API Reference
 
-### `plog(name, verbosity=True, llvl=logging.DEBUG)`
+### `synlog(name, verbosity=True, llvl=logging.DEBUG)`
 
 | Parameter   | Type     | Default          | Description                     |
 |-------------|----------|------------------|---------------------------------|
