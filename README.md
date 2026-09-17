@@ -32,7 +32,7 @@ python3 -m pip install synlog
 Or install from source:
 
 ```bash
-pip install .
+python3 -m pip install .
 ```
 
 ---
