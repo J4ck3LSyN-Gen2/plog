@@ -35,8 +35,8 @@ pip install .
 ## Quick Start
 
 ```python
-from synlog import synlog
-log = synlog("myapp")
+from synlog import plog
+log = plog("myapp")
 log.log("Application started")                 # INFO  -> [*]
 log.log("Something looks suspicious", lvl=2)   # WARNING -> [!]
 log.log("Failed to connect", lvl=3)            # ERROR -> [-]
