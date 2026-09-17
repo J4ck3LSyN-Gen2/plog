@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plog"
+version = "1.1.0"
+description = "Pretty colored Python logger with in-memory record buffering and JSON export"
+readme = "README.md"
+authors = [
+    { name = "J4ck3LSyN" }
+]
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: System :: Logging",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = ["logging", "colored", "pretty", "logger", "json", "buffer"]
+
+[project.urls]
+# Homepage = "https://github.com/yourusername/plog"
+# Repository = "https://github.com/yourusername/plog"
+# Issues = "https://github.com/yourusername/plog/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
