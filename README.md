@@ -21,7 +21,12 @@ A lightweight, dependency-free logging utility that wraps the standard library `
 ## Installation
 
 ```bash
-pip install synlog
+python3 -m pip venv venv # Initialize a virtual environment
+python3 -m pip install --upgrade pip # Upgrade pip
+```
+
+```bash
+python3 -m pip install synlog
 ```
 
 Or install from source:
